@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bg"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="路口"
+        android:id="@+id/tv_road"
+        android:textColor="#000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bg"
+        android:gravity="center"
+        android:text="红灯时长(s)"
+        android:id="@+id/tv_red"
+        android:textColor="#000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bg"
+        android:gravity="center"
+        android:text="黄灯时长(s)"
+        android:id="@+id/tv_yellow"
+        android:textColor="#000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bg"
+        android:gravity="center"
+        android:text="绿灯时长(s)"
+        android:id="@+id/tv_green"
+        android:textColor="#000"
+        android:textSize="30sp" />
+</LinearLayout>
