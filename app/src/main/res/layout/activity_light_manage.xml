@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.LightManageActivity">
+
+    <include
+        layout="@layout/title_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|right"
+            android:text="排序："
+            android:textColor="#000"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner_light"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_weight="5.5"
+            android:entries="@array/light" />
+
+        <Button
+            android:id="@+id/query_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="50dp"
+            android:text="查询"
+            android:textColor="#000"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/plsz_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:text="批量设置"
+            android:textColor="#000"
+            android:textSize="35sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="1200dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/et_shape"
+            android:gravity="center"
+            android:text="路口"
+            android:textColor="#000"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/et_shape"
+            android:gravity="center"
+            android:text="红灯时长(S)"
+            android:textColor="#000"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/et_shape"
+            android:gravity="center"
+            android:text="黄灯时长(S)"
+            android:textColor="#000"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/et_shape"
+            android:gravity="center"
+            android:text="绿灯时长(S)"
+            android:textColor="#000"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/et_shape"
+            android:gravity="center"
+            android:text="操作项"
+            android:textColor="#000"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:background="@drawable/et_shape"
+            android:gravity="center"
+            android:text="设置"
+            android:textColor="#000"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/light_list"
+        android:layout_width="1200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+</LinearLayout>

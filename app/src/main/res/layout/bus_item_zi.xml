@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/bus_2" />
+
+        <TextView
+            android:id="@+id/bus_information"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical"
+            android:text="XXXXX"
+            android:textColor="#000"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/bus_time"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="XXXXX"
+            android:textColor="#000"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/bus_distance"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="XXXXX"
+            android:textColor="#000"
+            android:textSize="35sp" />
+    </LinearLayout>
+</LinearLayout>

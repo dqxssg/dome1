@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <TextView
+            android:id="@+id/account_id"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#000"
+            android:textSize="35sp" />
+
+        <ImageView
+            android:id="@+id/car_iv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/baoma" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/plate_tv"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="鲁A10001"
+                android:textColor="#000"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/owner_tv"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="XXXX"
+                android:textColor="#000"
+                android:textSize="35sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/balance_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center|left"
+            android:text="XXX"
+            android:textColor="#000"
+            android:textSize="35sp" />
+
+        <CheckBox
+            android:id="@+id/account_check"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/recharge_btn"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="30dp"
+            android:text="充值"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="35sp" />
+    </LinearLayout>
+</LinearLayout>
