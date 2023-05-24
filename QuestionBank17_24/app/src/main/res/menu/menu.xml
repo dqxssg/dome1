@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/shzs"
+            android:title="生活指数" />
+        <item
+            android:id="@+id/wdxx"
+            android:title="我的消息" />
+        <item
+            android:id="@+id/sjfx"
+            android:title="数据分析" />
+        <item
+            android:id="@+id/grzx"
+            android:title="个人中心" />
+        <item
+            android:id="@+id/hldgl"
+            android:title="红绿灯管理" />
+        <item
+            android:id="@+id/zhgl"
+            android:title="账户管理" />
+        <item
+            android:id="@+id/zhsz"
+            android:title="账户设置" />
+        <item
+            android:id="@+id/shZS"
+            android:title="生活助手" />
+        <item
+            android:id="@+id/lkcx"
+            android:title="路况查询" />
+    </group>
+</menu>
