@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.JKZP2Activity">
+
+    <include
+        layout="@layout/title_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/image_jkzp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/jkzp_cancel"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/image_jkzp"
+        android:layout_centerHorizontal="true"
+        android:text="返回"
+        android:textColor="#000"
+        android:textSize="30sp" />
+</RelativeLayout>
